@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF792C28309808B2007ADECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF792C27309808B2007ADECB /* AppDelegate.m */; };
+		DF792C2D309808B6007ADECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF792C2C309808B6007ADECB /* Assets.xcassets */; };
+		DF792C32309808B6007ADECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF792C31309808B6007ADECB /* main.m */; };
+		DF792C3D309808B7007ADECB /* MacCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF792C3C309808B7007ADECB /* MacCheckTests.m */; };
+		DF792C47309808B7007ADECB /* MacCheckUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF792C46309808B7007ADECB /* MacCheckUITests.m */; };
+		DF792C49309808B7007ADECB /* MacCheckUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF792C48309808B7007ADECB /* MacCheckUITestsLaunchTests.m */; };
+		DF792C573098091C007ADECB /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF792C563098091C007ADECB /* IOKit.framework */; };
+		DF792C5930980926007ADECB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF792C5830980926007ADECB /* AVFoundation.framework */; };
+		DF792C5B3098093C007ADECB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF792C5A3098093C007ADECB /* CoreMedia.framework */; };
+		DF792C5D30980945007ADECB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF792C5C30980945007ADECB /* QuartzCore.framework */; };
+		DF792C5F30980972007ADECB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF792C5E30980972007ADECB /* Info.plist */; };
+		DF792C6230980A16007ADECB /* SMCTemperature.m in Sources */ = {isa = PBXBuildFile; fileRef = DF792C6130980A16007ADECB /* SMCTemperature.m */; };
+		DF792C6530980A57007ADECB /* SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DF792C6430980A57007ADECB /* SystemInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF792C39309808B7007ADECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF792C1B309808B2007ADECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF792C22309808B2007ADECB;
+			remoteInfo = MacCheck;
+		};
+		DF792C43309808B7007ADECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF792C1B309808B2007ADECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF792C22309808B2007ADECB;
+			remoteInfo = MacCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF792C23309808B2007ADECB /* MacCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF792C26309808B2007ADECB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF792C27309808B2007ADECB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF792C2C309808B6007ADECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF792C31309808B6007ADECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF792C33309808B6007ADECB /* MacCheck.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacCheck.entitlements; sourceTree = "<group>"; };
+		DF792C38309808B7007ADECB /* MacCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF792C3C309808B7007ADECB /* MacCheckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacCheckTests.m; sourceTree = "<group>"; };
+		DF792C42309808B7007ADECB /* MacCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF792C46309808B7007ADECB /* MacCheckUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacCheckUITests.m; sourceTree = "<group>"; };
+		DF792C48309808B7007ADECB /* MacCheckUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacCheckUITestsLaunchTests.m; sourceTree = "<group>"; };
+		DF792C563098091C007ADECB /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		DF792C5830980926007ADECB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DF792C5A3098093C007ADECB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DF792C5C30980945007ADECB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF792C5E30980972007ADECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF792C60309809DC007ADECB /* SMCTemperature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMCTemperature.h; sourceTree = "<group>"; };
+		DF792C6130980A16007ADECB /* SMCTemperature.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMCTemperature.m; sourceTree = "<group>"; };
+		DF792C6330980A37007ADECB /* SystemInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemInfo.h; sourceTree = "<group>"; };
+		DF792C6430980A57007ADECB /* SystemInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemInfo.m; sourceTree = "<group>"; };
+		DF792C6630980D1C007ADECB /* Compat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Compat.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF792C20309808B2007ADECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF792C5D30980945007ADECB /* QuartzCore.framework in Frameworks */,
+				DF792C5B3098093C007ADECB /* CoreMedia.framework in Frameworks */,
+				DF792C5930980926007ADECB /* AVFoundation.framework in Frameworks */,
+				DF792C573098091C007ADECB /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF792C35309808B7007ADECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF792C3F309808B7007ADECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF792C1A309808B2007ADECB = {
+			isa = PBXGroup;
+			children = (
+				DF792C25309808B2007ADECB /* MacCheck */,
+				DF792C3B309808B7007ADECB /* MacCheckTests */,
+				DF792C45309808B7007ADECB /* MacCheckUITests */,
+				DF792C24309808B2007ADECB /* Products */,
+				DF792C553098091C007ADECB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF792C24309808B2007ADECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF792C23309808B2007ADECB /* MacCheck.app */,
+				DF792C38309808B7007ADECB /* MacCheckTests.xctest */,
+				DF792C42309808B7007ADECB /* MacCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF792C25309808B2007ADECB /* MacCheck */ = {
+			isa = PBXGroup;
+			children = (
+				DF792C26309808B2007ADECB /* AppDelegate.h */,
+				DF792C27309808B2007ADECB /* AppDelegate.m */,
+				DF792C2C309808B6007ADECB /* Assets.xcassets */,
+				DF792C31309808B6007ADECB /* main.m */,
+				DF792C33309808B6007ADECB /* MacCheck.entitlements */,
+				DF792C5E30980972007ADECB /* Info.plist */,
+				DF792C60309809DC007ADECB /* SMCTemperature.h */,
+				DF792C6130980A16007ADECB /* SMCTemperature.m */,
+				DF792C6330980A37007ADECB /* SystemInfo.h */,
+				DF792C6430980A57007ADECB /* SystemInfo.m */,
+				DF792C6630980D1C007ADECB /* Compat.h */,
+			);
+			path = MacCheck;
+			sourceTree = "<group>";
+		};
+		DF792C3B309808B7007ADECB /* MacCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF792C3C309808B7007ADECB /* MacCheckTests.m */,
+			);
+			path = MacCheckTests;
+			sourceTree = "<group>";
+		};
+		DF792C45309808B7007ADECB /* MacCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF792C46309808B7007ADECB /* MacCheckUITests.m */,
+				DF792C48309808B7007ADECB /* MacCheckUITestsLaunchTests.m */,
+			);
+			path = MacCheckUITests;
+			sourceTree = "<group>";
+		};
+		DF792C553098091C007ADECB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF792C5C30980945007ADECB /* QuartzCore.framework */,
+				DF792C5A3098093C007ADECB /* CoreMedia.framework */,
+				DF792C5830980926007ADECB /* AVFoundation.framework */,
+				DF792C563098091C007ADECB /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF792C22309808B2007ADECB /* MacCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF792C4C309808B7007ADECB /* Build configuration list for PBXNativeTarget "MacCheck" */;
+			buildPhases = (
+				DF792C1F309808B2007ADECB /* Sources */,
+				DF792C20309808B2007ADECB /* Frameworks */,
+				DF792C21309808B2007ADECB /* Resources */,
+				DF792C6730982FD4007ADECB /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacCheck;
+			productName = MacCheck;
+			productReference = DF792C23309808B2007ADECB /* MacCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF792C37309808B7007ADECB /* MacCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF792C4F309808B7007ADECB /* Build configuration list for PBXNativeTarget "MacCheckTests" */;
+			buildPhases = (
+				DF792C34309808B7007ADECB /* Sources */,
+				DF792C35309808B7007ADECB /* Frameworks */,
+				DF792C36309808B7007ADECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF792C3A309808B7007ADECB /* PBXTargetDependency */,
+			);
+			name = MacCheckTests;
+			productName = MacCheckTests;
+			productReference = DF792C38309808B7007ADECB /* MacCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF792C41309808B7007ADECB /* MacCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF792C52309808B7007ADECB /* Build configuration list for PBXNativeTarget "MacCheckUITests" */;
+			buildPhases = (
+				DF792C3E309808B7007ADECB /* Sources */,
+				DF792C3F309808B7007ADECB /* Frameworks */,
+				DF792C40309808B7007ADECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF792C44309808B7007ADECB /* PBXTargetDependency */,
+			);
+			name = MacCheckUITests;
+			productName = MacCheckUITests;
+			productReference = DF792C42309808B7007ADECB /* MacCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF792C1B309808B2007ADECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DF792C22309808B2007ADECB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DF792C37309808B7007ADECB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DF792C22309808B2007ADECB;
+					};
+					DF792C41309808B7007ADECB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DF792C22309808B2007ADECB;
+					};
+				};
+			};
+			buildConfigurationList = DF792C1E309808B2007ADECB /* Build configuration list for PBXProject "MacCheck" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF792C1A309808B2007ADECB;
+			productRefGroup = DF792C24309808B2007ADECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF792C22309808B2007ADECB /* MacCheck */,
+				DF792C37309808B7007ADECB /* MacCheckTests */,
+				DF792C41309808B7007ADECB /* MacCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF792C21309808B2007ADECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF792C2D309808B6007ADECB /* Assets.xcassets in Resources */,
+				DF792C5F30980972007ADECB /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF792C36309808B7007ADECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF792C40309808B7007ADECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF792C6730982FD4007ADECB /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "# Путь к собранному приложению\nAPP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\"\n# Папка для временного хранения (кладем туда app и ссылку на Applications)\nSTAGING_DIR=\"${BUILT_PRODUCTS_DIR}/dmg_staging\"\nDMG_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.dmg\"\n\n# Очищаем старую папку и DMG, если они есть\nrm -rf \"${STAGING_DIR}\"\nrm -f \"${DMG_PATH}\"\n\n# Создаем папку и копируем туда приложение\nmkdir -p \"${STAGING_DIR}\"\ncp -R \"${APP_PATH}\" \"${STAGING_DIR}/\"\n\n# Создаем символическую ссылку на /Applications\nln -s /Applications \"${STAGING_DIR}/Applications\"\n\n# Собираем DMG\nhdiutil create -volname \"${PRODUCT_NAME}\" -srcfolder \"${STAGING_DIR}\" -ov -format UDZO \"${DMG_PATH}\"\n\necho \"✅ DMG успешно создан: ${DMG_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF792C1F309808B2007ADECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF792C6530980A57007ADECB /* SystemInfo.m in Sources */,
+				DF792C6230980A16007ADECB /* SMCTemperature.m in Sources */,
+				DF792C32309808B6007ADECB /* main.m in Sources */,
+				DF792C28309808B2007ADECB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF792C34309808B7007ADECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF792C3D309808B7007ADECB /* MacCheckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF792C3E309808B7007ADECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF792C47309808B7007ADECB /* MacCheckUITests.m in Sources */,
+				DF792C49309808B7007ADECB /* MacCheckUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF792C3A309808B7007ADECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF792C22309808B2007ADECB /* MacCheck */;
+			targetProxy = DF792C39309808B7007ADECB /* PBXContainerItemProxy */;
+		};
+		DF792C44309808B7007ADECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF792C22309808B2007ADECB /* MacCheck */;
+			targetProxy = DF792C43309808B7007ADECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF792C4A309808B7007ADECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DF792C4B309808B7007ADECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DF792C4D309808B7007ADECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacCheck/MacCheck.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MZ7K7LQMB;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "MacCheck проверяет работу камеры при диагностике б/у Mac.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MacCheck проверяет работу микрофона при диагностике б/у Mac.";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EdgePlus.MacCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		DF792C4E309808B7007ADECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacCheck/MacCheck.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MZ7K7LQMB;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "MacCheck проверяет работу камеры при диагностике б/у Mac.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MacCheck проверяет работу микрофона при диагностике б/у Mac.";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EdgePlus.MacCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		DF792C50309808B7007ADECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MZ7K7LQMB;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EdgePlus.MacCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacCheck.app/Contents/MacOS/MacCheck";
+			};
+			name = Debug;
+		};
+		DF792C51309808B7007ADECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MZ7K7LQMB;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EdgePlus.MacCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacCheck.app/Contents/MacOS/MacCheck";
+			};
+			name = Release;
+		};
+		DF792C53309808B7007ADECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MZ7K7LQMB;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EdgePlus.MacCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = MacCheck;
+			};
+			name = Debug;
+		};
+		DF792C54309808B7007ADECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MZ7K7LQMB;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EdgePlus.MacCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = MacCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF792C1E309808B2007ADECB /* Build configuration list for PBXProject "MacCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF792C4A309808B7007ADECB /* Debug */,
+				DF792C4B309808B7007ADECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF792C4C309808B7007ADECB /* Build configuration list for PBXNativeTarget "MacCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF792C4D309808B7007ADECB /* Debug */,
+				DF792C4E309808B7007ADECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF792C4F309808B7007ADECB /* Build configuration list for PBXNativeTarget "MacCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF792C50309808B7007ADECB /* Debug */,
+				DF792C51309808B7007ADECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF792C52309808B7007ADECB /* Build configuration list for PBXNativeTarget "MacCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF792C53309808B7007ADECB /* Debug */,
+				DF792C54309808B7007ADECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF792C1B309808B2007ADECB /* Project object */;
+}
